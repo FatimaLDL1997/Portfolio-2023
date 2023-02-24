@@ -21,14 +21,15 @@ const ProjectSection = (images) => {
           console.log(sliderImages);
           // const [main, setMain] = useState(thumbnail);
           return (
-            <div key={id} className="projectSection-container">
-              <div className="projectImage-container">
-                <img src={main} className="projectSection-photo" alt="" />
+            <div key={id} className='projectSection-container'>
+              <div className='projectImage-container'>
+                <img src={main} className='projectSection-photo' alt='' />
               </div>
-              <div className="projectSlider-container">
+              <div className='projectSlider-container'>
                 {sliderImages.map((image, index) => {
                   return (
                     <img
+                      className='slider-img'
                       src={image}
                       alt={image}
                       key={index}

@@ -69,6 +69,7 @@ ul {
   position: relative;
   background-color: var(--lgt-bg);
   height: 100vh;
+  overflow-x: hidden;
 }
 .title-container,
 .subtitle-container {
@@ -427,6 +428,78 @@ form button {
   width: 500px;
   /* background-color: var(--lgt-bg); */
 }
+@media screen and (max-width: 800px) {
+  .photo {
+    width: 50vw;
+  }
+  .imageTiles-container {
+    display: flex !important;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative !important;
+    /* right: 0 !important; */
+    width: auto !important;
+  }
+  .portfolio-container {
+    position: relative !important;
+  }
+  .projectImage-container {
+    position: relative !important;
+    left: 0;
+    width: 50vw !important;
+    height: auto !important;
+  }
+  .projectSection-container {
+    position: relative !important;
+    height: fit-content;
+    left: 0px !important;
+    width: auto !important;
+  }
+  .projectInfo-container {
+    padding-top: 2rem;
+    position: relative !important;
+    width: 60vw !important;
+  }
+  .projectInfo-container button {
+    padding: 5px !important;
+  }
+
+  .flex-container {
+    display: flex !important;
+    align-items: center;
+    flex-direction: column !important;
+  }
+  .title-container {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    text-align: center;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .menubar-container {
+    display: flex;
+    width: 60vw !important;
+    position: relative !important;
+  }
+  .links div {
+    margin-bottom: 0 !important;
+  }
+  .projectSection-photo {
+    margin: 7px;
+    width: 58vw !important;
+    height: auto !important;
+  }
+  .projectSlider-container {
+    width: 60vw !important;
+    height: auto !important;
+  }
+  .projectSlider-container img {
+    width: 18vw !important;
+  }
+}
 
 .projectImage-container {
   display: block;
@@ -476,6 +549,10 @@ form button {
   border-radius: 5px;
   box-shadow: 4px 4px 4px var(--scrollbar);
   /* box-shadow: 0px 0px 5px 1px var(--scrollbar); */
+}
+
+.slider-img {
+  cursor: pointer;
 }
 
 .projectInfo-container {
