@@ -11,8 +11,8 @@ const SingleProject = () => {
       <section className='singleProject-container'>
         <Title />
         <div className='middle-container'>
+          <Menubar />
           <div className='flex-container'>
-            <Menubar />
             <ProjectSection />
             <ProjectInfoSection />
           </div>

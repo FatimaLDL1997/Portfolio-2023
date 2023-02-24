@@ -480,9 +480,14 @@ form button {
     font-size: 16px;
   }
   .menubar-container {
+    left: -23vw;
+    top: -46vh;
+    width: 100%;
+    z-index: 2;
     display: flex;
-    width: 60vw !important;
-    position: relative !important;
+    position: fixed !important;
+    /* position: absolute !important; */
+    justify-content: center;
   }
   .links div {
     margin-bottom: 0 !important;
