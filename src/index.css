@@ -480,14 +480,20 @@ form button {
     font-size: 16px;
   }
   .menubar-container {
-    left: -23vw;
+    left: 0 !important;
     top: -10rem;
     width: 100%;
     z-index: 2;
     display: flex;
     position: fixed !important;
     /* position: absolute !important; */
-    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .menubar-container button {
+    padding-left: 5rem;
+  }
+  .darkmode-icon {
+    padding-right: 5rem;
   }
   .links div {
     margin-bottom: 0 !important;
