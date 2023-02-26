@@ -475,13 +475,14 @@ form button {
     padding-left: 20vw;
     padding-right: 20vw;
     text-align: center;
+    padding-top: 8rem;
   }
   .title {
     font-size: 16px;
   }
   .menubar-container {
     left: 0 !important;
-    top: -10rem;
+    top: -14rem;
     width: 100%;
     z-index: 2;
     display: flex;
@@ -489,12 +490,12 @@ form button {
     /* position: absolute !important; */
     justify-content: space-evenly;
   }
-  .menubar-container button {
+  /* .menubar-container button {
     padding-left: 5rem;
   }
   .darkmode-icon {
     padding-right: 5rem;
-  }
+  } */
   .links div {
     margin-bottom: 0 !important;
   }
