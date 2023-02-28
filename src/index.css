@@ -317,6 +317,7 @@ ul {
   background: var(--drk-sidebar-btn);
   border-radius: 5px;
   /* width: 185px; */
+  cursor: pointer;
   margin-right: 25px;
   text-align: center;
   padding: 15px;
@@ -331,6 +332,7 @@ ul {
   background: var(--drk-sidebar-btn);
   border-radius: 5px;
   flex-grow: 1;
+  cursor: pointer;
   text-align: center;
   padding: 15px;
   font-family: var(--fnt-primary);

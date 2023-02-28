@@ -36,14 +36,17 @@ const Sidebar = () => {
           return (
             <div key={id} className={` ${index === sidevalue && "active-btn"}`}>
               <li key={id}>
-                {/* <a href={url}>{text}</a> */}
-                <Link
-                  onClick={(index) => handleClick(index)}
-                  className={` ${index === sidevalue && "active-text"}`}
-                  to={url}
-                >
-                  {text}
-                </Link>
+                {id == 0 ? (
+                  <a href={url}>{text}</a>
+                ) : (
+                  <Link
+                    onClick={(index) => handleClick(index)}
+                    className={` ${index === sidevalue && "active-text"}`}
+                    to={url}
+                  >
+                    {text}
+                  </Link>
+                )}
               </li>
             </div>
           );
