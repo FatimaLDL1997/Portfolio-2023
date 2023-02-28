@@ -431,6 +431,36 @@ form button {
   /* background-color: var(--lgt-bg); */
 }
 @media screen and (max-width: 800px) {
+  /*_______CONTACT_______*/
+  .inputSection-container {
+    position: relative !important;
+    height: auto !important;
+    width: auto !important;
+    text-align: center !important;
+    display: flex;
+    top: auto !important;
+    right: auto !important;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+  .contactSection-container {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    text-align: center;
+  }
+  .submit-btn {
+    position: relative !important;
+    padding: 0.5rem;
+    height: auto !important;
+    width: auto !important;
+    right: auto !important;
+    text-align: center;
+  }
+  form {
+    padding-bottom: 4rem;
+  }
+  /*_____________________*/
   .photo {
     width: 50vw;
   }

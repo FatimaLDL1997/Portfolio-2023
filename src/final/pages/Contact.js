@@ -14,9 +14,9 @@ const Contact = () => {
     return <Submission />;
   }
   return (
-    <section className="contact-container">
+    <section className='contact-container'>
       <Title />
-      <div className="middle-container">
+      <div className='middle-container'>
         <Menubar />
         <ContactSection />
         <InputSection />
