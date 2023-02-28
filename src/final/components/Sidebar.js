@@ -6,9 +6,19 @@ import { Link } from "react-router-dom";
 import { useGlobalContext } from "../pages/context";
 
 const Sidebar = () => {
-  const { isSidebarOpen, closeSidebar, sidevalue, setsideValue } =
-    useGlobalContext();
+  const {
+    isSidebarOpen,
+    closeSidebar,
+    sidevalue,
+    setsideValue,
+    setIsSidebarOpen,
+  } = useGlobalContext();
   // const [value, setValue] = useState(0);
+
+  const handleClick = (index) => {
+    setsideValue(index);
+    setIsSidebarOpen(false);
+  };
   return (
     <section
       className={`${
@@ -24,15 +34,11 @@ const Sidebar = () => {
         {links.map((link, index) => {
           const { id, url, text } = link;
           return (
-            <div
-              key={id}
-              // onClick={() => setsideValue(index)}
-              className={` ${index === sidevalue && "active-btn"}`}
-            >
+            <div key={id} className={` ${index === sidevalue && "active-btn"}`}>
               <li key={id}>
                 {/* <a href={url}>{text}</a> */}
                 <Link
-                  onClick={() => setsideValue(index)}
+                  onClick={(index) => handleClick(index)}
                   className={` ${index === sidevalue && "active-text"}`}
                   to={url}
                 >
