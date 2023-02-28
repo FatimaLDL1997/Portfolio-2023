@@ -70,6 +70,7 @@ ul {
   background-color: var(--lgt-bg);
   height: 100vh;
   overflow-x: hidden;
+  padding-bottom: 10rem;
 }
 .title-container,
 .subtitle-container {
