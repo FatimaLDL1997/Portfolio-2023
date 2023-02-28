@@ -18,9 +18,9 @@ const Sidebar = () => {
       }`}
     >
       <button onClick={closeSidebar}>
-        <VscChromeClose className="close-icon " />
+        <VscChromeClose className='close-icon ' />
       </button>
-      <ul className="links">
+      <ul className='links'>
         {links.map((link, index) => {
           const { id, url, text } = link;
           return (
