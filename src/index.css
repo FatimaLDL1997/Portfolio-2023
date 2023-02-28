@@ -443,6 +443,25 @@ form button {
   width: 500px;
   /* background-color: var(--lgt-bg); */
 }
+
+@media screen and (min-width: 500px) {
+  .menubar-container {
+    justify-content: space-around !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .menubar-container {
+    left: 0 !important;
+    top: -12rem;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    position: fixed !important;
+    /* position: absolute !important; */
+    justify-content: space-evenly;
+  }
+}
+/*phone mode*/
 @media screen and (max-width: 800px) {
   /*__________ABOUT____________*/
   .middle-container-about {
