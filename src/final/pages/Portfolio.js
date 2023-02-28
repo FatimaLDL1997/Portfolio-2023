@@ -6,17 +6,17 @@ import Sidebar from "../components/Sidebar";
 
 const Portfolio = () => {
   return (
-    <div className='flex-container'>
-      <section className='portfolio-container '>
-        <Title />
-        <Subtitle />
-        <div className='middle-container'>
-          <Menubar />
-          <ImageTiles />
-        </div>
-        <Sidebar />
-      </section>
-    </div>
+    // <div className='flex-container'>
+    <section className='portfolio-container '>
+      <Title />
+      <Subtitle />
+      <div className='middle-container'>
+        <Menubar />
+        <ImageTiles />
+      </div>
+      <Sidebar />
+    </section>
+    // </div>
   );
 };
 export default Portfolio;
