@@ -498,6 +498,9 @@ form button {
     margin-top: 4rem;
   }
   /*_______CONTACT_______*/
+  .contact-container {
+    padding-bottom: 15rem !important;
+  }
   .inputSection-container {
     position: relative !important;
     height: auto !important;
@@ -523,9 +526,7 @@ form button {
     right: auto !important;
     text-align: center;
   }
-  form {
-    padding-bottom: 4rem;
-  }
+
   /*_____________________*/
   .photo {
     width: 50vw;
@@ -577,6 +578,8 @@ form button {
   .middle-container {
     position: absolute !important;
     right: -25vw !important;
+    height: fit-content !important;
+    padding-bottom: 7rem !important;
   }
   .projectImage-container {
     position: relative !important;
