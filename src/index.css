@@ -581,6 +581,10 @@ form button {
     height: fit-content !important;
     padding-bottom: 7rem !important;
   }
+  .about-container {
+    height: fit-content;
+    padding-bottom: 15rem;
+  }
   .projectImage-container {
     position: relative !important;
     left: 0;
