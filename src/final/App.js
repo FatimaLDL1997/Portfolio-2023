@@ -14,17 +14,17 @@ function App() {
       <Routes>
         {/* <Route path="/" element={<SharedLayout />}> */}
         <Route index element={<Portfolio />} />
-        <Route path="/:projectId" element={<SingleProject />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="linkedin" element={<LinkedIn />} />
+        <Route path='/:projectId' element={<SingleProject />} />
+        <Route path='/#/about' element={<About />} />
+        <Route path='/#/contact' element={<Contact />} />
+        <Route path='/#/linkedin' element={<LinkedIn />} />
 
         {/* <Route path="products" element={<SharedProductLayout />}>
             <Route index element={<Products />} />
             <Route path=":productId" element={<SingleProduct />} />
           </Route> */}
         {/* </Route> */}
-        <Route path="*" element={<Error />} />
+        <Route path='*' element={<Error />} />
       </Routes>
     </BrowserRouter>
   );
