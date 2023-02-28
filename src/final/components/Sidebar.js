@@ -38,7 +38,7 @@ const Sidebar = () => {
               <li key={id}>
                 {/* <a href={url}>{text}</a> */}
                 <Link
-                  onClick={(index) => handleClick(index)}
+                  // onClick={(index) => handleClick(index)}
                   className={` ${index === sidevalue && "active-text"}`}
                   to={url}
                 >
