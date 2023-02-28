@@ -132,6 +132,7 @@ ul {
   width: 100%;
   object-fit: cover;
   height: 100%;
+  position: relative;
   border-radius: 3px;
   border: 0.2rem solid var(--drk-sidebar-bg);
   box-shadow: 0px 0px 5px 0px var(--drk-sidebar-bg);
@@ -158,7 +159,7 @@ ul {
 
 .container {
   width: 100%;
-  /* object-fit: cover; */
+  object-fit: cover;
   height: 103%;
   position: relative;
 }
@@ -432,18 +433,57 @@ form button {
   .photo {
     width: 50vw;
   }
+  .modal {
+    width: auto !important;
+  }
+  .container {
+    width: fit-content;
+  }
   .imageTiles-container {
-    display: flex !important;
-    height: auto;
+    /* display: grid !important; */
+    /* height: auto;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     position: relative !important;
     /* right: 0 !important; */
-    width: auto !important;
+    /* width: auto !important;  */
+    position: absolute !important;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    justify-items: center !important;
+    /* background-color: var(--drk-bg); */
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
   }
-  .portfolio-container {
+
+  .cell {
+    /* background-color: grey; */
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .cell-4 {
+    grid-row: 1;
+    padding-bottom: 10px;
+  }
+
+  .cell-5 {
+    grid-column: 1;
+  }
+  .cell:last-child {
+    padding-bottom: 4rem;
+  }
+  /* .portfolio-container {
     position: relative !important;
+  } */
+  .middle-container {
+    position: absolute !important;
+    right: -25vw !important;
   }
   .projectImage-container {
     position: relative !important;
@@ -490,12 +530,6 @@ form button {
     /* position: absolute !important; */
     justify-content: space-evenly;
   }
-  /* .menubar-container button {
-    padding-left: 5rem;
-  }
-  .darkmode-icon {
-    padding-right: 5rem;
-  } */
   .links div {
     margin-bottom: 0 !important;
   }
