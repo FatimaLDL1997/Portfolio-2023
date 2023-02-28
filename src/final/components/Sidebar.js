@@ -17,7 +17,7 @@ const Sidebar = () => {
 
   const handleClick = (index) => {
     setsideValue(index);
-    // setIsSidebarOpen(false);
+    setIsSidebarOpen(false);
   };
   return (
     <section
