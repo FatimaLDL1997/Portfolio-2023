@@ -17,7 +17,7 @@ const Sidebar = () => {
 
   const handleClick = (index) => {
     setsideValue(index);
-    setIsSidebarOpen(false);
+    // setIsSidebarOpen(false);
   };
   return (
     <section
@@ -38,7 +38,7 @@ const Sidebar = () => {
               <li key={id}>
                 {/* <a href={url}>{text}</a> */}
                 <Link
-                  // onClick={(index) => handleClick(index)}
+                  onClick={(index) => handleClick(index)}
                   className={` ${index === sidevalue && "active-text"}`}
                   to={url}
                 >
