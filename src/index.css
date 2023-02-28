@@ -70,7 +70,7 @@ ul {
   background-color: var(--lgt-bg);
   height: 100vh;
   overflow-x: hidden;
-  padding-bottom: 10rem;
+  /* padding-bottom: 10rem; */
 }
 .title-container,
 .subtitle-container {
@@ -460,6 +460,8 @@ form button {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 20px;
+
+    padding-bottom: 10rem !important;
   }
 
   .cell {
@@ -470,15 +472,15 @@ form button {
 
   .cell-4 {
     grid-row: 1;
-    padding-bottom: 10px;
+    padding-bottom: 0 !important;
   }
 
   .cell-5 {
     grid-column: 1;
   }
-  .cell:last-child {
-    padding-bottom: 4rem;
-  }
+  /* .cell:last-child {
+    /* padding-bottom: 4rem; */
+  /* }  */
   /* .portfolio-container {
     position: relative !important;
   } */
