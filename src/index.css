@@ -485,7 +485,7 @@ form button {
     border-color: white;
     border-style: solid;
     height: 60px !important;
-    width: 395px !important;
+    width: fit-content !important;
     left: 0 !important;
     top: 0 !important;
   }
