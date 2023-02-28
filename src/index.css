@@ -432,6 +432,38 @@ form button {
 }
 @media screen and (max-width: 800px) {
   /*_______CONTACT_______*/
+  .middle-container-about {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ImageSection-container {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    text-align: center;
+  }
+  .about-btn {
+    margin-top: 5rem !important;
+    display: flex !important;
+    position: relative !important ;
+    border-width: 0px !important;
+    border-color: white;
+    border-style: solid;
+    height: 60px !important;
+    width: 395px !important;
+    margin-bottom: 5rem;
+    left: 0 !important;
+    top: 0 !important;
+  }
+  .AboutSection-container {
+    text-align: center;
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    margin-top: 4rem;
+  }
+  /*_______CONTACT_______*/
   .inputSection-container {
     position: relative !important;
     height: auto !important;
@@ -508,12 +540,6 @@ form button {
   .cell-5 {
     grid-column: 1;
   }
-  /* .cell:last-child {
-    /* padding-bottom: 4rem; */
-  /* }  */
-  /* .portfolio-container {
-    position: relative !important;
-  } */
   .middle-container {
     position: absolute !important;
     right: -25vw !important;

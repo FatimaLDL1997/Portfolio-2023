@@ -6,15 +6,15 @@ import ImageSection from "../components/ImageSection";
 
 const About = () => {
   return (
-    <section className="about-container">
+    <section className='about-container'>
       <Title />
-      <div className="middle-container">
+      <div className='middle-container-about'>
         <Menubar />
         <ImageSection />
         <AboutSection />
-        <div className="about-btn">
-          <div className="resume-btn">resume</div>
-          <div className="linkedin-btn">linkedin</div>
+        <div className='about-btn'>
+          <div className='resume-btn'>resume</div>
+          <div className='linkedin-btn'>linkedin</div>
         </div>
       </div>
       <Sidebar />
