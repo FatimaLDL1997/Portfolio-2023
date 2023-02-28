@@ -21,10 +21,12 @@ const Contact = () => {
         <h1
           style={{ paddingBottom: "2rem", textAlign: "center", color: "white" }}
         >
-          _____________
+          __________________________________
         </h1>
         <ContactSection />
-        <h1 style={{ textAlign: "center", color: "white" }}>______________</h1>
+        <h1 style={{ textAlign: "center", color: "white" }}>
+          __________________________________
+        </h1>
         <InputSection />
       </div>
       <Sidebar />
