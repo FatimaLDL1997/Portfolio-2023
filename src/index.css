@@ -749,10 +749,12 @@ form button {
   justify-content: center;
 }
 .back-btn {
-  background: grey;
+  background: #e9a0a0;
   position: absolute;
   /* width: 100%; */
-  border-width: 1px;
+  color: white;
+  border-radius: 12px;
+  border-width: 0px;
   padding: 1rem;
   border-color: none;
   border-style: solid;
