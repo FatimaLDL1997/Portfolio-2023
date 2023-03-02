@@ -313,45 +313,32 @@ ul {
 }
 
 .resume-btn {
-  /* background: var(--drk-sidebar-btn);
+  background: var(--drk-sidebar-btn);
   border-radius: 5px;
   cursor: pointer;
   margin-right: 25px;
   text-align: center;
-  padding: 15px;
+  padding: 0.5rem;
   font-family: var(--fnt-primary);
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
-  color: var(--drk-text);  */
-  position: relative !important;
-  padding: 0.5rem;
-  height: auto !important;
-  width: auto !important;
-  right: auto !important;
-  text-align: center;
+  color: var(--drk-text);
 }
 .linkedin-btn {
-  /* background: var(--drk-sidebar-btn);
+  background: var(--drk-sidebar-btn);
   border-radius: 5px;
   flex-grow: 1;
   cursor: pointer;
   text-align: center;
-  padding: 15px;
+  padding: 0.5rem;
   font-family: var(--fnt-primary);
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
-  color: var(--drk-text); */
-
-  position: relative !important;
-  padding: 0.5rem;
-  height: auto !important;
-  width: auto !important;
-  right: auto !important;
-  text-align: center;
+  color: var(--drk-text);
 }
 
 /* Contact page */
@@ -624,6 +611,8 @@ form button {
   }
   .title-container {
     text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
   .title {
     font-size: 16px;
@@ -638,8 +627,8 @@ form button {
     justify-content: space-evenly;
   } */
   .menubar-container {
-    left: 11rem !important;
-    top: -7.5rem !important;
+    left: 13rem !important;
+    top: -7rem !important;
     width: 100vw !important;
     z-index: 2 !important;
     display: flex !important;
