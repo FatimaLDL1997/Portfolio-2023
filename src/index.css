@@ -313,10 +313,8 @@ ul {
 }
 
 .resume-btn {
-  flex-grow: 1;
-  background: var(--drk-sidebar-btn);
+  /* background: var(--drk-sidebar-btn);
   border-radius: 5px;
-  /* width: 185px; */
   cursor: pointer;
   margin-right: 25px;
   text-align: center;
@@ -326,10 +324,16 @@ ul {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
-  color: var(--drk-text);
+  color: var(--drk-text);  */
+  position: relative !important;
+  padding: 0.5rem;
+  height: auto !important;
+  width: auto !important;
+  right: auto !important;
+  text-align: center;
 }
 .linkedin-btn {
-  background: var(--drk-sidebar-btn);
+  /* background: var(--drk-sidebar-btn);
   border-radius: 5px;
   flex-grow: 1;
   cursor: pointer;
@@ -340,7 +344,14 @@ ul {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
-  color: var(--drk-text);
+  color: var(--drk-text); */
+
+  position: relative !important;
+  padding: 0.5rem;
+  height: auto !important;
+  width: auto !important;
+  right: auto !important;
+  text-align: center;
 }
 
 /* Contact page */
