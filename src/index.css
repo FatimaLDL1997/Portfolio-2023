@@ -613,6 +613,7 @@ form button {
     text-align: center;
     padding-left: 5rem;
     padding-right: 5rem;
+    padding-top: 27px !important;
   }
   .title {
     font-size: 16px;
