@@ -635,8 +635,8 @@ form button {
     justify-content: space-evenly;
   } */
   .menubar-container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
     left: 0 !important;
     top: -10.5rem !important;
     width: 100% !important;
