@@ -462,6 +462,39 @@ form button {
 } */
 /*phone mode*/
 @media screen and (max-width: 800px) {
+  .menubar-container {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    left: 127px !important;
+    top: -7.5rem !important;
+    width: 100% !important;
+    z-index: 2 !important;
+    display: flex !important;
+    position: fixed !important;
+    flex-direction: column;
+    /* padding-top: 2rem; */
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 555px) {
+  .menubar-container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    left: 0 !important;
+    top: -10.5rem !important;
+    width: 100% !important;
+    z-index: 2 !important;
+    display: flex !important;
+    position: fixed !important;
+    justify-content: space-around !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    /* padding-top: 2rem; */
+  }
+}
+@media screen and (max-width: 800px) {
   /*__________ABOUT____________*/
 
   .middle-container-about {
@@ -505,6 +538,7 @@ form button {
   }
   .contact-container {
     padding-bottom: 15rem !important;
+    padding-top: 2rem;
   }
   .inputSection-container {
     position: relative;
@@ -589,6 +623,7 @@ form button {
   .about-container {
     height: fit-content;
     padding-bottom: 7rem;
+    padding-top: 2rem;
   }
   .projectImage-container {
     position: relative !important;
@@ -634,7 +669,7 @@ form button {
     position: fixed !important;
     justify-content: space-evenly;
   } */
-  .menubar-container {
+  /* .menubar-container {
     padding-left: 6rem;
     padding-right: 6rem;
     left: 0 !important;
@@ -646,23 +681,22 @@ form button {
     justify-content: space-around !important;
     flex-direction: row !important;
     align-items: center !important;
-  }
-
-  .links div {
-    margin-bottom: 0 !important;
-  }
-  .projectSection-photo {
-    margin: 7px;
-    width: 58vw !important;
-    height: auto !important;
-  }
-  .projectSlider-container {
-    width: 60vw !important;
-    height: auto !important;
-  }
-  .projectSlider-container img {
-    width: 18vw !important;
-  }
+    /* padding-top: 2rem; */
+}
+*/ .links div {
+  margin-bottom: 0 !important;
+}
+.projectSection-photo {
+  margin: 7px;
+  width: 58vw !important;
+  height: auto !important;
+}
+.projectSlider-container {
+  width: 60vw !important;
+  height: auto !important;
+}
+.projectSlider-container img {
+  width: 18vw !important;
 }
 
 .projectImage-container {
