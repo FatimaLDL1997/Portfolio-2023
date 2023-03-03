@@ -3,13 +3,14 @@ import Title from "../components/Tiltle";
 import Sidebar from "../components/Sidebar";
 import AboutSection from "../components/AboutSection";
 import ImageSection from "../components/ImageSection";
+import Subtitle from "../components/Subtitle";
 
 const About = () => {
   return (
     <section className='about-container'>
       <Title />
-      <h1 style={{ opacity: "0" }}>invisible space</h1>
-
+      {/* <h1 style={{ opacity: "0" }}>invisible space</h1> */}
+      <Subtitle />
       <div className='middle-container-about'>
         <Menubar />
         <ImageSection />
