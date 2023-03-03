@@ -1,5 +1,5 @@
 import Menubar from "../components/Menubar";
-import Title from "../components/Tiltle";
+import Title from "../components/Title";
 import Sidebar from "../components/Sidebar";
 import AboutSection from "../components/AboutSection";
 import ImageSection from "../components/ImageSection";
