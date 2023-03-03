@@ -618,8 +618,8 @@ form button {
   }
   .title-container {
     text-align: center;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
     padding-top: 27px !important;
   }
   .title {
@@ -635,8 +635,10 @@ form button {
     justify-content: space-evenly;
   } */
   .menubar-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
     left: 0 !important;
-    top: -8.5rem !important;
+    top: -10.5rem !important;
     width: 100% !important;
     z-index: 2 !important;
     display: flex !important;
