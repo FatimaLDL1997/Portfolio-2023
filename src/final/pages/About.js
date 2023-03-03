@@ -9,7 +9,6 @@ const About = () => {
   return (
     <section className='about-container'>
       <Title />
-      {/* <h1 style={{ opacity: "0" }}>invisible space</h1> */}
       <Subtitle />
       <div className='middle-container-about'>
         <Menubar />
