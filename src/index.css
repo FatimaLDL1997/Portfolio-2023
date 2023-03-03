@@ -538,7 +538,7 @@ form button {
   }
   .contact-container {
     padding-bottom: 15rem !important;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
   }
   .inputSection-container {
     position: relative;
@@ -623,7 +623,7 @@ form button {
   .about-container {
     height: fit-content;
     padding-bottom: 7rem;
-    padding-top: 2rem !important;
+    /* padding-top: 2rem !important; */
   }
   .projectImage-container {
     position: relative !important;

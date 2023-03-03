@@ -1,4 +1,5 @@
 import Title from "../components/Tiltle";
+import Subtitle from "../components/Subtitle";
 import Menubar from "../components/Menubar";
 import Sidebar from "../components/Sidebar";
 import ContactSection from "../components/ContactSection";
@@ -16,6 +17,9 @@ const Contact = () => {
   return (
     <section className='contact-container'>
       <Title />
+      {/* <Subtitle /> */}
+      <h1 style={{ opacity: "0" }}>invisible space</h1>
+
       <div className='middle-container'>
         <Menubar />
         {/* <h1
