@@ -463,6 +463,7 @@ form button {
 /*phone mode*/
 @media screen and (max-width: 800px) {
   /*__________ABOUT____________*/
+
   .middle-container-about {
     display: flex;
     flex-direction: column;
@@ -496,14 +497,20 @@ form button {
     margin-top: 4rem;
   }
   /*_______CONTACT_______*/
+  .form-control input {
+    width: 70vw;
+  }
+  .form-control textarea {
+    width: 70vw;
+  }
   .contact-container {
     padding-bottom: 15rem !important;
   }
   .inputSection-container {
-    position: relative !important;
-    height: auto !important;
-    width: auto !important;
-    text-align: center !important;
+    position: relative;
+    height: auto;
+    width: auto;
+    text-align: left;
     display: flex;
     top: auto !important;
     right: auto !important;
@@ -628,8 +635,8 @@ form button {
     justify-content: space-evenly;
   } */
   .menubar-container {
-    left: 13rem !important;
-    top: -7rem !important;
+    left: 12rem !important;
+    top: -8.5rem !important;
     width: 100vw !important;
     z-index: 2 !important;
     display: flex !important;
