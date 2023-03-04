@@ -9,7 +9,9 @@ const About = () => {
   return (
     <section className='about-container'>
       <Title />
-      <Subtitle />
+      {/* <Subtitle /> */}
+      <h2>s</h2>
+
       <div className='middle-container-about'>
         <Menubar />
         <ImageSection />
