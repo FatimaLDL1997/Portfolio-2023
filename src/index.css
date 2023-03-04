@@ -657,14 +657,26 @@ form button {
   width: 58vw !important;
   height: auto !important;
 }
+
 .projectSlider-container {
-  width: 60vw !important;
-  height: auto !important;
+  display: flex;
+  overflow-x: auto;
+  margin-top: 10px;
+  width: 60vw;
+  /* height: 10vh; */
+  height: auto;
+  /* border-style: solid;
+  border-width: 2px; */
 }
 .projectSlider-container img {
-  width: 18vw !important;
+  width: 30%;
+  width: 18vw;
+  object-fit: cover;
+  margin: 7px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px var(--scrollbar);
+  /* box-shadow: 0px 0px 5px 1px var(--scrollbar); */
 }
-
 .projectImage-container {
   display: block;
   height: 400px;
@@ -696,23 +708,6 @@ form button {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-}
-.projectSlider-container {
-  display: flex;
-  overflow-x: auto;
-  margin-top: 10px;
-  height: 150px;
-  width: 400px;
-  /* border-style: solid;
-  border-width: 2px; */
-}
-.projectSlider-container img {
-  width: 30%;
-  object-fit: cover;
-  margin: 7px;
-  border-radius: 5px;
-  box-shadow: 4px 4px 4px var(--scrollbar);
-  /* box-shadow: 0px 0px 5px 1px var(--scrollbar); */
 }
 
 .slider-img {
