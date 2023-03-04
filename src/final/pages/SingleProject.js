@@ -10,6 +10,8 @@ const SingleProject = () => {
     <Wrapper>
       <section className='singleProject-container'>
         <Title />
+        <h1 style={{ opacity: "0" }}>invisible space</h1>
+
         <div className='middle-container'>
           <Menubar />
           <div className='flex-container'>
