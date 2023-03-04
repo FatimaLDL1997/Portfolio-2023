@@ -10,7 +10,7 @@ const About = () => {
     <section className='about-container'>
       <Title />
       {/* <Subtitle /> */}
-      <h2>s</h2>
+      <h1 style={{ opacity: "0" }}>invisible space</h1>
 
       <div className='middle-container-about'>
         <Menubar />
